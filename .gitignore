@@ -1,7 +1,7 @@
 # File created using '.gitignore Generator' for Visual Studio Code: https://bit.ly/vscode-gig
 
-# Created by https://www.gitignore.io/api/angular,csharp,node
-# Edit at https://www.gitignore.io/?templates=angular,csharp,node
+# Created by https://www.gitignore.io/api/angular,csharp,node,visualstudiocode
+# Edit at https://www.gitignore.io/?templates=angular,csharp,node,visualstudiocode
 
 ### Angular ###
 ## Angular ##
@@ -464,7 +464,18 @@ typings/
 # DynamoDB Local files
 .dynamodb/
 
-# End of https://www.gitignore.io/api/angular,csharp,node
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+
+# End of https://www.gitignore.io/api/angular,csharp,node,visualstudiocode
 
 # Custom rules (everything added below won't be overriden by 'Generate .gitignore File' if you use 'Update' option)
 
