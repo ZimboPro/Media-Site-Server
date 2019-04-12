@@ -1,8 +1,8 @@
-using database.Interfaces;
+using database.Enums;
 
-namespace database.Models
+namespace database.Interfaces
 {
-    public class Movie : IFiles
+    public interface IFiles
     {
         public string FilePath { get; set; }
         public string FileName { get; set; }
